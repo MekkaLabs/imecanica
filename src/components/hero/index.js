@@ -74,17 +74,17 @@ export default function Hero() {
                                 <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                                     <div className="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
                                         <div>
-
-                                            <a
-                                                href="https://wa.me/5561981793222"
-                                                className="inline-flex items-center text-white bg-gray-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200 transform hover:scale-105 motion-reduce:transform-none duration-1000"
-                                            >
-                                                <span className="px-3 py-0.5 text-white text-lg font-semibold leading-5 uppercase tracking-wide bg-red-700 rounded-full">
-                                                    Sem tempo para ir a Oficina?
-                                                </span>
-                                                <span className="ml-4 text-lg">FALE COM A IMEC</span>
-                                                <ChevronRightIcon className="ml-2 w-5 h-5 text-gray-500" aria-hidden="true" />
-                                            </a>
+                                            <Link href="https://wa.me/5561981793222">
+                                                <a
+                                                    className="inline-flex items-center text-white bg-gray-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200 transform hover:scale-105 motion-reduce:transform-none duration-1000"
+                                                >
+                                                    <span className="px-3 py-0.5 text-white text-lg font-semibold leading-5 uppercase tracking-wide bg-red-700 rounded-full">
+                                                        Sem tempo para ir a Oficina?
+                                                    </span>
+                                                    <span className="ml-4 text-lg">FALE COM A IMEC</span>
+                                                    <ChevronRightIcon className="ml-2 w-5 h-5 text-gray-500" aria-hidden="true" />
+                                                </a>
+                                            </Link>
                                             <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
                                                 <span className="md:block transform hover:scale-105 motion-reduce:transform-none duration-1000">Faça a revisão do seu carro</span>{' '}
                                                 <span className="text-black md:block transform hover:scale-105 motion-reduce:transform-none duration-1000">no conforto da sua casa</span>
@@ -102,46 +102,49 @@ export default function Hero() {
 
                                                     <div className="mt-1 grid grid-cols-3 gap-3">
                                                         <div>
-                                                            <a
-                                                                href="https://wa.me/5561981793222"
-                                                                className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
-                                                            >
-                                                                <span className="sr-only">Via WhatsApp</span>
-                                                                <Image
-                                                                    className="px-2"
-                                                                    src="/whatsapp.svg"
-                                                                    width={30}
-                                                                    height={30}
-                                                                    alt="Mirage" />
-                                                            </a>
+                                                            <Link href="https://wa.me/5561981793222">
+                                                                <a
+                                                                    className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
+                                                                >
+                                                                    <span className="sr-only">Via WhatsApp</span>
+                                                                    <Image
+                                                                        className="px-2"
+                                                                        src="/whatsapp.svg"
+                                                                        width={30}
+                                                                        height={30}
+                                                                        alt="Mirage" />
+                                                                </a>
+                                                            </Link>
                                                         </div>
                                                         <div>
-                                                            <a
-                                                                href="https://wa.me/5561981793222"
-                                                                className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
-                                                            >
-                                                                <span className="sr-only">Siga no Instagram</span>
-                                                                <Image
-                                                                    className="px-2"
-                                                                    src="/instagram.svg"
-                                                                    width={30}
-                                                                    height={30}
-                                                                    alt="Mirage" />
-                                                            </a>
+                                                            <Link href="https://wa.me/5561981793222">
+                                                                <a
+                                                                    className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
+                                                                >
+                                                                    <span className="sr-only">Siga no Instagram</span>
+                                                                    <Image
+                                                                        className="px-2"
+                                                                        src="/instagram.svg"
+                                                                        width={30}
+                                                                        height={30}
+                                                                        alt="Mirage" />
+                                                                </a>
+                                                            </Link>
                                                         </div>
                                                         <div>
-                                                            <a
-                                                                href="https://wa.me/5561981793222"
-                                                                className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
-                                                            >
-                                                                <span className="sr-only">Siga no Facebook</span>
-                                                                <Image
-                                                                    className="px-2"
-                                                                    src="/facebook.svg"
-                                                                    width={30}
-                                                                    height={30}
-                                                                    alt="Mirage" />
-                                                            </a>
+                                                            <Link href="https://wa.me/5561981793222">
+                                                                <a
+                                                                    className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
+                                                                >
+                                                                    <span className="sr-only">Siga no Facebook</span>
+                                                                    <Image
+                                                                        className="px-2"
+                                                                        src="/facebook.svg"
+                                                                        width={30}
+                                                                        height={30}
+                                                                        alt="Mirage" />
+                                                                </a>
+                                                            </Link>
                                                         </div>
                                                     </div>
                                                 </div>
