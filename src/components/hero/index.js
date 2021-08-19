@@ -19,7 +19,7 @@ export default function Hero() {
             </div>
             <div className="hidden sm:block sm:absolute sm:inset-0" aria-hidden="true">
                 <svg
-                    className="absolute bottom-0 right-0 transform translate-x-1/2 mb-48 text-red-900 lg:top-0 lg:mt-28 lg:mb-0 xl:transform-none xl:translate-x-0"
+                    className="absolute bottom-0 right-0 transform translate-x-1/2 mb-48 text-red-900 lg:top-0 lg:mt-16 lg:mb-0 xl:transform-none xl:translate-x-0"
                     width={364}
                     height={384}
                     viewBox="0 0 364 384"
@@ -42,7 +42,7 @@ export default function Hero() {
             </div>
             <div>
                 <div className="relative mx-auto py-2 px-4 sm:py-6 sm:px-6 lg:px-8">
-                    <div className="relative pt-6 pb-16 sm:pb-24">
+                    <div className="relative pt-6 pb-2 sm:pb-24">
                         <Popover>
                             <nav
                                 className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 "
