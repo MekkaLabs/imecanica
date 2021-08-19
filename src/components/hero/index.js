@@ -52,7 +52,7 @@ export default function Hero() {
                                 <div className="flex items-center flex-1 pb-24 lg:pb-0">
                                     <div className="flex items-center justify-between w-full md:w-auto ">
                                         <div className="h-8 w-auto sm:h-10 ">
-                                            <Link href="/">
+                                            <Link href="#">
                                                 <a>
                                                     <Image
                                                         src="/logo-imec-white.png"
