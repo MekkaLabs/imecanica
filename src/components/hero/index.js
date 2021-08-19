@@ -1,6 +1,7 @@
 import { Popover, Transition } from '@headlessui/react'
 import { ChevronRightIcon } from '@heroicons/react/solid'
 import Image from 'next/image'
+import Link from 'next/link'
 import HubspotForm from 'react-hubspot-form'
 
 
@@ -51,14 +52,16 @@ export default function Hero() {
                                 <div className="flex items-center flex-1 pb-24 lg:pb-0">
                                     <div className="flex items-center justify-between w-full md:w-auto ">
                                         <div className="h-8 w-auto sm:h-10 ">
-                                            <a href="/">
-                                                <Image
-                                                    src="/logo-imec-white.png"
-                                                    width={200}
-                                                    height={200}
-                                                    alt=""
-                                                />
-                                            </a>
+                                            <Link href="/">
+                                                <a>
+                                                    <Image
+                                                        src="/logo-imec-white.png"
+                                                        width={200}
+                                                        height={200}
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -71,6 +74,7 @@ export default function Hero() {
                                 <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                                     <div className="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
                                         <div>
+
                                             <a
                                                 href="https://wa.me/5561981793222"
                                                 className="inline-flex items-center text-white bg-gray-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200 transform hover:scale-105 motion-reduce:transform-none duration-1000"
@@ -167,6 +171,6 @@ export default function Hero() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
