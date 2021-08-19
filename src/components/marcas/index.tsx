@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Marcas() {
     return (
-        <div className="bg-red-700">
+        <div className="bg-red-700 py-24">
             <div className="max-w-7xl mx-auto py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
                 <h2 className=" text-4xl font-extrabold text-white text-center pb-10">Atendemos as principais marcas do mercado</h2>
                 <div className="flow-root mt-8 lg:mt-10">

@@ -2,7 +2,7 @@
 
 export default function Imecanica() {
     return (
-        <div className="pb-20 bg-white overflow-hidden">
+        <div className="pb-36 pt-32 bg-white overflow-hidden">
             <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
                 <svg className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
                     <defs>
