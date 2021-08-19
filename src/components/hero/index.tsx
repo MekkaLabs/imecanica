@@ -150,8 +150,7 @@ export default function Hero() {
                                                     <HubspotForm
                                                         portalId='8835199'
                                                         formId='e57f29b0-1d61-4978-a1a8-08cb847070b2'
-                                                        onSubmit={() => console.log('Submit!')}
-                                                        onReady={(form) => console.log('Form ready!')}
+
                                                         loading={<div>Loading...</div>}
                                                     />
                                                 </div>
