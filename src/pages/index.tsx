@@ -6,7 +6,7 @@ import Imecanica from '../components/imecanica'
 import Servicos from '../components/servicos'
 import CookieConsent, { Cookies } from "react-cookie-consent";
 import Marcas from '../components/marcas'
-import Teste1 from '../components/teste/teste-1'
+
 
 
 

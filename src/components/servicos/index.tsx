@@ -68,7 +68,7 @@ export default function Teste1() {
                                 <div className="flex items-center space-x-4 lg:space-x-6 transform hover:scale-105 motion-reduce:transform-none duration-1000">
                                     <Image
                                         className="h12"
-                                        src={Horario}
+                                        src={Scanner}
                                         alt="Troca-de-oleo"
                                         width={100}
                                         height={100} />
