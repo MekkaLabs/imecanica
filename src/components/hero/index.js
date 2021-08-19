@@ -6,7 +6,7 @@ import HubspotForm from 'react-hubspot-form'
 
 export default function Hero() {
     return (
-        <div className="relative bg-black">
+        <div className="relative bg-red-500">
 
             <div className="absolute inset-0">
                 <Image
