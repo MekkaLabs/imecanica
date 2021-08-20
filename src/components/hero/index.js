@@ -43,7 +43,7 @@ export default function Hero() {
             </div>
             <div>
                 <div className="relative mx-auto py-2 px-4 sm:py-6 sm:px-6 lg:px-8">
-                    <div className="relative pt-6 pb-2 sm:pb-24">
+                    <div className="relative pt-2 pb-2 sm:pb-24">
                         <Popover>
                             <nav
                                 className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 "
