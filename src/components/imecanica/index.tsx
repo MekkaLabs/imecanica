@@ -27,7 +27,7 @@ export default function Imecanica() {
                             className="rounded-3xl transform hover:scale-105 motion-reduce:transform-none duration-1000"
                             width="100%"
                             height="350px"
-                            src="https://www.youtube.com/embed/AUvqeIreVPs?controls=0"
+                            src="https://www.youtube.com/embed/jsXDCqGSWhk?controls=0"
                             title="YouTube video player"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         >

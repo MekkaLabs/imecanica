@@ -1,8 +1,6 @@
 
 import Image from 'next/image'
-import Oil from '../../../public/icons-oil.png'
-import Scanner from '../../../public/icons-scanner.png'
-import Horario from '../../../public/icons-24h.png'
+
 
 
 export default function Teste1() {
@@ -20,14 +18,14 @@ export default function Teste1() {
                                 <div className="flex items-center space-x-4 lg:space-x-6 transform hover:scale-105 motion-reduce:transform-none duration-1000">
                                     <Image
                                         className="h12"
-                                        src={Oil}
+                                        src="/revisao-completa.svg"
                                         alt="Troca-de-oleo"
-                                        width={100}
-                                        height={100} />
+                                        width={80}
+                                        height={80} />
                                     <div className="font-black text-red-600 text-xl leading-6 space-y-1">
                                         <h3>Revisão Completa</h3>
                                         <p className="text-lg font-medium text-gray-500">
-                                            Troca de Filtros e Óleo.
+                                            Troca de Óleo, Filtros e mais.
                                         </p>
                                     </div>
                                 </div>
@@ -36,14 +34,30 @@ export default function Teste1() {
                                 <div className="flex items-center space-x-4 lg:space-x-6 transform hover:scale-105 motion-reduce:transform-none duration-1000">
                                     <Image
                                         className="h12"
-                                        src={Oil}
+                                        src="/freios.svg"
                                         alt="Troca-de-oleo"
-                                        width={100}
+                                        width={80}
+                                        height={80} />
+                                    <div className="font-black text-red-600 text-xl leading-6 space-y-1">
+                                        <h3>Freios</h3>
+                                        <p className="text-lg font-medium text-gray-500">
+                                            Plastilhas, Disco e Fluído de Freio e mais.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="flex items-center space-x-4 lg:space-x-6 transform hover:scale-105 motion-reduce:transform-none duration-1000">
+                                    <Image
+                                        className="h12"
+                                        src="/injecao-eletronica.svg"
+                                        alt="Troca-de-oleo"
+                                        width={80}
                                         height={100} />
                                     <div className="font-black text-red-600 text-xl leading-6 space-y-1">
-                                        <h3>Checagem de 20 itens</h3>
+                                        <h3>Injeção Eletrônica</h3>
                                         <p className="text-lg font-medium text-gray-500">
-                                            Troca de Filtros e Óleo do Motor.
+                                            Bomba de combustivel, velas, Bateria e mais .
                                         </p>
                                     </div>
                                 </div>
@@ -52,14 +66,14 @@ export default function Teste1() {
                                 <div className="flex items-center space-x-4 lg:space-x-6 transform hover:scale-105 motion-reduce:transform-none duration-1000">
                                     <Image
                                         className="h12"
-                                        src={Horario}
+                                        src="/suspensao.svg"
                                         alt="Troca-de-oleo"
-                                        width={100}
-                                        height={100} />
+                                        width={80}
+                                        height={80} />
                                     <div className="font-black text-red-600 text-xl leading-6 space-y-1">
-                                        <h3>Troca de Bateria</h3>
+                                        <h3>Suspensão</h3>
                                         <p className="text-lg font-medium text-gray-500">
-                                            Troca de Filtros e Óleo.
+                                            Troca de molas, amortecedores, coxim e mais.
                                         </p>
                                     </div>
                                 </div>
@@ -68,14 +82,30 @@ export default function Teste1() {
                                 <div className="flex items-center space-x-4 lg:space-x-6 transform hover:scale-105 motion-reduce:transform-none duration-1000">
                                     <Image
                                         className="h12"
-                                        src={Scanner}
+                                        src="/1-hora.svg"
                                         alt="Troca-de-oleo"
-                                        width={100}
-                                        height={100} />
+                                        width={80}
+                                        height={80} />
                                     <div className="font-black text-red-600 text-xl leading-6 space-y-1">
                                         <h3>Em menos de 1 hora</h3>
                                         <p className="text-lg font-medium text-gray-500">
                                             Revisão do seu veiculo com rapidez.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="flex items-center space-x-4 lg:space-x-6 transform hover:scale-105 motion-reduce:transform-none duration-1000">
+                                    <Image
+                                        className="h12"
+                                        src="/check-list.svg"
+                                        alt="Troca-de-oleo"
+                                        width={80}
+                                        height={80} />
+                                    <div className="font-black text-red-600 text-xl leading-6 space-y-1">
+                                        <h3>Check-List de 20 itens</h3>
+                                        <p className="text-lg font-medium text-gray-500">
+                                            Check-list de Inspensão veicular sob condição do veiculo.
                                         </p>
                                     </div>
                                 </div>
