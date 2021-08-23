@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Hero() {
     return (
-        <div className="relative bg-red-500">
+        <div className="relative bg-red-500 h-full-screen">
 
             <div className="absolute inset-0">
                 <Image
