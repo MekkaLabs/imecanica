@@ -18,7 +18,7 @@ export default function Hero() {
 
             <div className="relative pt-2 pb-2 sm:pb-24">
                 <main className="sm:mt-24 ">
-                    <Link href="#" >
+                    <Link href="/" >
                         <a>
                             <Image
                                 className="transform hover:scale-105 hover:translate-x-2 motion-reduce:transform-none duration-1000"
