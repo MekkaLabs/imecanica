@@ -15,12 +15,6 @@ const Home: NextPage = () => {
         <title>Imecanica | Oficina Móvel</title>
         <meta name="description" content="Revisão do seu carro no conforto da sua casa" />
         <link rel="icon" href="/favicon.ico" />
-        <script dangerouslySetInnerHTML={{
-          __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                            })(window,document,'script','dataLayer','GTM-WK47GTF');`}}></script>
       </Head>
 
       <main>
@@ -40,8 +34,8 @@ const Home: NextPage = () => {
         location="bottom"
         buttonText="Aceito"
         cookieName="myAwesomeCookieName2"
-        style={{ background: "#7cda24" }}
-        buttonStyle={{ color: "#FFF", fontSize: "13px" }}
+        style={{ background: "#2B373B" }}
+        buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
         expires={150}
       >
         Este site utiliza cookies, e possui formulários de contato.{" "}
