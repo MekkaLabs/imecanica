@@ -14,9 +14,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Imecanica | Oficina Móvel</title>
         <meta name="description" content="Revisão do seu carro no conforto da sua casa" />
-        <meta name="facebook-domain-verification" content="shivkloyttu01z8689d99qo334z8dk" />
-        <link rel="icon" href="/favicon.svg" />
-
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
