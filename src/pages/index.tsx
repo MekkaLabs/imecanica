@@ -34,8 +34,8 @@ const Home: NextPage = () => {
         location="bottom"
         buttonText="Aceito"
         cookieName="myAwesomeCookieName2"
-        style={{ background: "#2B373B" }}
-        buttonStyle={{ color: "#7cda24", fontSize: "13px" }}
+        style={{ background: "#7cda24" }}
+        buttonStyle={{ color: "#FFF", fontSize: "13px" }}
         expires={150}
       >
         Este site utiliza cookies, e possui formulários de contato.{" "}

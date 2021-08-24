@@ -1,5 +1,4 @@
 
-
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 export default class MyDocument extends Document {
     render() {
@@ -9,7 +8,6 @@ export default class MyDocument extends Document {
                     <div>
                         <title>Imecanica</title>
                         <meta name="description" content="Oficina Móvel" />
-                        <meta name="facebook-domain-verification" content="2hum1l34xum9h9bcubi0z3n78flt95" />
                         <link rel="icon" href="/favicon.svg" />
 
                         <script dangerouslySetInnerHTML={{
@@ -19,19 +17,20 @@ export default class MyDocument extends Document {
                             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
                             })(window,document,'script','dataLayer','GTM-WK47GTF');`}}></script>
 
+                        <meta name="facebook-domain-verification" content="2hum1l34xum9h9bcubi0z3n78flt95" />
+
                     </div>
                 </Head>
                 <body>
-
-                    <noscript dangerouslySetInnerHTML={{
-                        __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WK47GTF"
+                    <div>
+                        <noscript dangerouslySetInnerHTML={{
+                            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WK47GTF"
                             height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}></noscript>
 
-                    <Main />
-                    <NextScript />
+                        <Main />
+                        <NextScript /></div>
                 </body>
             </Html >
         )
     }
 }
-
