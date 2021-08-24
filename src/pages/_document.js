@@ -9,7 +9,7 @@ export default class MyDocument extends Document {
                     <div>
                         <title>Imecanica</title>
                         <meta name="description" content="Oficina Móvel" />
-                        <meta name="facebook-domain-verification" content="2hum1l34xum9h9bcubi0z3n78flt95" />
+                        <meta name="facebook-domain-verification" content="shivkloyttu01z8689d99qo334z8dk" />
                         <link rel="icon" href="/favicon.svg" />
 
                         <script dangerouslySetInnerHTML={{
