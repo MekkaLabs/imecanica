@@ -9,7 +9,7 @@ export default class MyDocument extends Document {
                     <div>
                         <title>Imecanica</title>
                         <meta name="description" content="Oficina Móvel" />
-                        <link rel="icon" href="/favicon.ico" />
+                        <link rel="icon" href="/favicon.svg" />
 
                         <script dangerouslySetInnerHTML={{
                             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

@@ -13,7 +13,6 @@ export default function Imecanica() {
                     <rect width="404" height="784" fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)" />
                 </svg>
 
-
                 <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
                     <div className="relative">
                         <h1 className="text-4xl font-extrabold tracking-tight text-red-600 sm:text-5xl lg:text-6xl transform hover:scale-105 motion-reduce:transform-none duration-1000">Imecanica</h1>
@@ -43,7 +42,6 @@ export default function Imecanica() {
                     </defs>
                     <rect width="404" height="784" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
                 </svg>
-
 
             </div>
         </div>

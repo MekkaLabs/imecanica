@@ -117,7 +117,7 @@ export default function Hero() {
                                                             </Link>
                                                         </div>
                                                         <div>
-                                                            <Link href="https://wa.me/5561981793222">
+                                                            <Link href="https://www.instagram.com/imec.bsb/">
                                                                 <a
                                                                     className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
                                                                 >
@@ -132,7 +132,7 @@ export default function Hero() {
                                                             </Link>
                                                         </div>
                                                         <div>
-                                                            <Link href="https://wa.me/5561981793222">
+                                                            <Link href="https://www.facebook.com/imecbsb">
                                                                 <a
                                                                     className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
                                                                 >
@@ -160,7 +160,6 @@ export default function Hero() {
                                                     <HubspotForm
                                                         portalId='8835199'
                                                         formId='e57f29b0-1d61-4978-a1a8-08cb847070b2'
-
                                                         loading={<div>Loading...</div>}
                                                     />
                                                 </div>
