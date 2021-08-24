@@ -18,8 +18,6 @@ export default class MyDocument extends Document {
                             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
                             })(window,document,'script','dataLayer','GTM-WK47GTF');`}}></script>
 
-                        <meta name="facebook-domain-verification" content="2hum1l34xum9h9bcubi0z3n78flt95" />
-
                     </div>
                 </Head>
                 <body>
