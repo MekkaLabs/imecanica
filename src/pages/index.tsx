@@ -11,11 +11,7 @@ import Marcas from '../components/marcas'
 const Home: NextPage = () => {
   return (
     <div>
-      <Head>
-        <title>Imecanica | Oficina Móvel</title>
-        <meta name="description" content="Revisão do seu carro no conforto da sua casa" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+
 
       <main>
         <Hero />
