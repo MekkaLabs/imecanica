@@ -1,15 +1,14 @@
 
 
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-
 export default class MyDocument extends Document {
     render() {
         return (
             <Html>
                 <Head>
                     <div>
-                        <title>Imecanica | Oficina Móvel</title>
-                        <meta name="description" content="Revisão do seu carro no conforto da sua casa" />
+                        <title>Imecanica</title>
+                        <meta name="description" content="Oficina Móvel" />
                         <meta name="facebook-domain-verification" content="shivkloyttu01z8689d99qo334z8dk" />
                         <link rel="icon" href="/favicon.svg" />
 
@@ -18,9 +17,8 @@ export default class MyDocument extends Document {
                             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
                             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                            })(window,document,'script','dataLayer','GTM-WK47GTF');`}}>
+                            })(window,document,'script','dataLayer','GTM-WK47GTF');`}}></script>
 
-                        </script>
                     </div>
                 </Head>
                 <body>
