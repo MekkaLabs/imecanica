@@ -60,7 +60,7 @@ export default function Hero() {
                                                 </a>
                                             </Link>
                                             <div id="botao-fale-conosco">
-                                                <Link href="https://wa.me/5561999971996">
+                                                <Link href="https://wa.me/556199971996">
                                                     <a
                                                         className="inline-flex items-center text-white bg-gray-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200 transform hover:scale-105 motion-reduce:transform-none duration-1000"
                                                     >
@@ -103,7 +103,7 @@ export default function Hero() {
                                                             </Link>
                                                         </div>
                                                         <div id="botao-whatsapp-1" className="transform hover:scale-110 motion-reduce:transform-none duration-700">
-                                                            <Link href="https://wa.me/5561999971996">
+                                                            <Link href="https://wa.me/556199971996">
                                                                 <a
                                                                     className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
                                                                 >
