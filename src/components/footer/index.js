@@ -32,7 +32,7 @@ export default function Footer() {
                                     <Link href="https://wa.me/556199971996">
                                         <a>
                                             <span className="ml-3 text-white">
-                                                +55 (61) 98179-3222
+                                                +55 (61) 99997-1996
                                             </span>
                                         </a>
                                     </Link>
