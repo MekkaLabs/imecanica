@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Imecanica | Oficina Móvel</title>
         <meta name="description" content="Revisão do seu carro no conforto da sua casa" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
 
       <main>
@@ -34,8 +34,8 @@ const Home: NextPage = () => {
         location="bottom"
         buttonText="Aceito"
         cookieName="myAwesomeCookieName2"
-        style={{ background: "#2B373B" }}
-        buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+        style={{ background: "#7cda24" }}
+        buttonStyle={{ color: "#000", fontSize: "13px" }}
         expires={150}
       >
         Este site utiliza cookies, e possui formulários de contato.{" "}
