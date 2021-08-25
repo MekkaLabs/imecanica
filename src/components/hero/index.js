@@ -74,7 +74,7 @@ export default function Hero() {
                                             </div>
                                             <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
                                                 <span className="md:block transform hover:scale-105 motion-reduce:transform-none duration-1000">Faça a revisão do seu carro</span>{' '}
-                                                <span className="text-black md:block transform hover:scale-105 motion-reduce:transform-none duration-1000">no conforto da sua casa</span>
+                                                <span className="text-black md:block transform hover:scale-105 motion-reduce:transform-none duration-1000">Onde e quando você quiser</span>
                                             </h1>
                                             <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl transform hover:scale-105 motion-reduce:transform-none duration-1000">
                                                 Somos uma oficina mecânica móvel especializada em revisões periódicas e preventivas.
