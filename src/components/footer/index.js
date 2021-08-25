@@ -29,7 +29,7 @@ export default function Footer() {
                                         width={30}
                                         height={30}
                                         alt="Mirage" />
-                                    <Link href="https://wa.me/5561981793222">
+                                    <Link href="https://wa.me/556199971996">
                                         <a>
                                             <span className="ml-3 text-white">
                                                 +55 (61) 98179-3222
@@ -48,7 +48,7 @@ export default function Footer() {
                                         width={30}
                                         height={30}
                                         alt="Mirage" />
-                                    <Link href="mailto:support@example.com">
+                                    <Link href="https://www.instagram.com/imec.bsb/">
                                         <a>
                                             <span className="ml-3 text-white">
                                                 imec.bsb
@@ -67,7 +67,7 @@ export default function Footer() {
                                         width={30}
                                         height={30}
                                         alt="Mirage" />
-                                    <Link href="mailto:support@example.com">
+                                    <Link href="https://www.facebook.com/imecbsb">
                                         <a>
                                             <span className="ml-3 text-white">
                                                 imecbsb
@@ -86,10 +86,10 @@ export default function Footer() {
                                         width={30}
                                         height={30}
                                         alt="Mirage" />
-                                    <Link href="mailto:support@example.com">
+                                    <Link href="mailto:contato@imecaninca.com.br">
                                         <a>
                                             <span className="ml-3 text-white">
-                                                atendimento@imecaninca.com.br
+                                                contato@imecaninca.com.br
                                             </span>
                                         </a>
                                     </Link>
@@ -112,7 +112,7 @@ export default function Footer() {
                                 <div>
                                     <div className="mt-1 grid grid-cols-3 gap-3">
                                         <div id="botao-telefone-2" className="transform hover:scale-110 motion-reduce:transform-none duration-700">
-                                            <Link href="tel:+5561981793222">
+                                            <Link href="tel:+5561999971996">
                                                 <a
                                                     className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 "
                                                 >
@@ -127,7 +127,7 @@ export default function Footer() {
                                             </Link>
                                         </div>
                                         <div id="botao-whatsapp-3" className="transform hover:scale-110 motion-reduce:transform-none duration-700">
-                                            <Link href="https://wa.me/5561981793222">
+                                            <Link href="https://wa.me/556199971996">
                                                 <a
                                                     className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
                                                 >
