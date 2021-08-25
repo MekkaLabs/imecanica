@@ -89,7 +89,7 @@ export default function Footer() {
                                     <Link href="mailto:support@example.com">
                                         <a>
                                             <span className="ml-3 text-white">
-                                                support@example.com
+                                                atendimento@imecaninca.com.br
                                             </span>
                                         </a>
                                     </Link>
@@ -105,13 +105,78 @@ export default function Footer() {
                 </div>
                 <div className="bg-black py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
 
-                    <div className="max-w-lg mx-auto lg:max-w-none bg-white p-12">
-                        <HubspotForm
-                            portalId='8835199'
-                            formId='e57f29b0-1d61-4978-a1a8-08cb847070b2'
+                    <div className="max-w-lg mx-auto lg:max-w-none bg-white p-12 rounded-lg">
 
-                            loading={<div>Loading...</div>}
-                        />
+                        <div className="rounded-lg sm:overflow-hidden">
+                            <div className="px-2 py-2 sm:px-10">
+                                <div>
+                                    <p className="text-lg font-bold text-red-600 text-center">Fale Conosco</p>
+                                    <div className="mt-1 grid grid-cols-3 gap-3">
+                                        <div className="transform hover:scale-110 motion-reduce:transform-none duration-700">
+                                            <Link href="tel:+5561981793222">
+                                                <a
+                                                    className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 "
+                                                >
+                                                    <span className="sr-only">Telefone para a Imec</span>
+                                                    <Image
+                                                        className="px-2"
+                                                        src="/telefone-imec.svg"
+                                                        width={30}
+                                                        height={30}
+                                                        alt="Mirage" />
+                                                </a>
+                                            </Link>
+                                        </div>
+                                        <div className="transform hover:scale-110 motion-reduce:transform-none duration-700">
+                                            <Link href="https://wa.me/5561981793222">
+                                                <a
+                                                    className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
+                                                >
+                                                    <span className="sr-only">Via WhatsApp</span>
+                                                    <Image
+                                                        className="px-2"
+                                                        src="/whatsapp.svg"
+                                                        width={30}
+                                                        height={30}
+                                                        alt="Mirage" />
+                                                </a>
+                                            </Link>
+                                        </div>
+                                        <div className="transform hover:scale-110 motion-reduce:transform-none duration-700">
+                                            <Link href="https://www.instagram.com/imec.bsb/">
+                                                <a
+                                                    className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
+                                                >
+                                                    <span className="sr-only">Siga no Instagram</span>
+                                                    <Image
+                                                        className="px-2"
+                                                        src="/instagram.svg"
+                                                        width={30}
+                                                        height={30}
+                                                        alt="Mirage" />
+                                                </a>
+                                            </Link>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div className="mt-6 relative">
+                                    <div className="absolute inset-0 flex items-center" aria-hidden="true">
+                                        <div className="w-full border-t border-gray-300 pb-8" />
+                                    </div>
+                                    <div className="relative flex justify-center text-sm">
+                                        <span className="px-2 bg-white text-gray-500 pb-8">Ou</span>
+                                    </div>
+                                </div>
+                                <div className="max-w-lg mx-auto lg:max-w-none">
+                                    <HubspotForm
+                                        portalId='8835199'
+                                        formId='e57f29b0-1d61-4978-a1a8-08cb847070b2'
+                                        loading={<div>Loading...</div>}
+                                    />
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>

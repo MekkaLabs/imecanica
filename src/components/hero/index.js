@@ -1,9 +1,7 @@
-import { Popover, Transition } from '@headlessui/react'
 import { ChevronRightIcon } from '@heroicons/react/solid'
 import Image from 'next/image'
 import Link from 'next/link'
 import HubspotForm from 'react-hubspot-form'
-
 
 export default function Hero() {
     return (
@@ -42,38 +40,26 @@ export default function Hero() {
                 </svg>
             </div>
             <div>
-                <div className="relative mx-auto py-2 px-4 sm:py-6 sm:px-6 lg:px-8">
+                <div>
                     <div className="relative pt-2 pb-2 sm:pb-24">
-                        <Popover>
-                            <nav
-                                className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 "
-                                aria-label="Global"
-                            >
-                                <div className="flex items-center flex-1 pb-24 lg:pb-0">
-                                    <div className="flex items-center justify-between w-full md:w-auto ">
-                                        <div className="h-8 w-auto sm:h-10 ">
+
+                        <main className="mt-2 sm:mt-8">
+                            <div className="mx-auto max-w-7xl">
+                                <div className="lg:grid lg:grid-cols-12 lg:gap-8">
+
+                                    <div className="px-2 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
+                                        <div className="px-4 sm:px-2">
                                             <Link href="#">
                                                 <a>
                                                     <Image
                                                         src="/logo-imec-white.png"
-                                                        width={200}
-                                                        height={200}
-                                                        alt=""
+                                                        width={150}
+                                                        height={150}
+                                                        alt="logo-imec"
                                                     />
                                                 </a>
                                             </Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </nav>
-                        </Popover>
-                        <main className="mt-16 sm:mt-24">
 
-                            <div className="mx-auto max-w-7xl">
-
-                                <div className="lg:grid lg:grid-cols-12 lg:gap-8">
-                                    <div className="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
-                                        <div>
                                             <Link href="https://wa.me/5561981793222">
                                                 <a
                                                     className="inline-flex items-center text-white bg-gray-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200 transform hover:scale-105 motion-reduce:transform-none duration-1000"
@@ -94,14 +80,28 @@ export default function Hero() {
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="mt-16 sm:mt-24 lg:mt-0 lg:col-span-6 transform hover:scale-105 motion-reduce:transform-none duration-1000">
+                                    <div className="mt-16 sm:mt-24 lg:mt-0 lg:col-span-6">
                                         <div className="bg-white sm:max-w-md sm:w-full sm:mx-auto sm:rounded-lg sm:overflow-hidden">
                                             <div className="px-4 py-8 sm:px-10">
                                                 <div>
                                                     <p className="text-lg font-bold text-red-600 text-center">Fale Conosco</p>
-
                                                     <div className="mt-1 grid grid-cols-3 gap-3">
-                                                        <div>
+                                                        <div className="transform hover:scale-110 motion-reduce:transform-none duration-700">
+                                                            <Link href="tel:+5561981793222">
+                                                                <a
+                                                                    className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 "
+                                                                >
+                                                                    <span className="sr-only">Telefone para a Imec</span>
+                                                                    <Image
+                                                                        className="px-2"
+                                                                        src="/telefone-imec.svg"
+                                                                        width={30}
+                                                                        height={30}
+                                                                        alt="Mirage" />
+                                                                </a>
+                                                            </Link>
+                                                        </div>
+                                                        <div className="transform hover:scale-110 motion-reduce:transform-none duration-700">
                                                             <Link href="https://wa.me/5561981793222">
                                                                 <a
                                                                     className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
@@ -116,7 +116,7 @@ export default function Hero() {
                                                                 </a>
                                                             </Link>
                                                         </div>
-                                                        <div>
+                                                        <div className="transform hover:scale-110 motion-reduce:transform-none duration-700">
                                                             <Link href="https://www.instagram.com/imec.bsb/">
                                                                 <a
                                                                     className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
@@ -131,21 +131,7 @@ export default function Hero() {
                                                                 </a>
                                                             </Link>
                                                         </div>
-                                                        <div>
-                                                            <Link href="https://www.facebook.com/imecbsb">
-                                                                <a
-                                                                    className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
-                                                                >
-                                                                    <span className="sr-only">Siga no Facebook</span>
-                                                                    <Image
-                                                                        className="px-2"
-                                                                        src="/facebook.svg"
-                                                                        width={30}
-                                                                        height={30}
-                                                                        alt="Mirage" />
-                                                                </a>
-                                                            </Link>
-                                                        </div>
+
                                                     </div>
                                                 </div>
                                                 <div className="mt-6 relative">
@@ -164,7 +150,6 @@ export default function Hero() {
                                                     />
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
