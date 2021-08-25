@@ -59,18 +59,19 @@ export default function Hero() {
                                                     />
                                                 </a>
                                             </Link>
-
-                                            <Link href="https://wa.me/5561981793222">
-                                                <a
-                                                    className="inline-flex items-center text-white bg-gray-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200 transform hover:scale-105 motion-reduce:transform-none duration-1000"
-                                                >
-                                                    <span className="px-3 py-0.5 text-white text-lg font-semibold leading-5 uppercase tracking-wide bg-red-700 rounded-full">
-                                                        Sem tempo para ir a Oficina?
-                                                    </span>
-                                                    <span className="ml-4 text-lg">FALE COM A IMEC</span>
-                                                    <ChevronRightIcon className="ml-2 w-5 h-5 text-gray-500" aria-hidden="true" />
-                                                </a>
-                                            </Link>
+                                            <div id="botao-fale-conosco">
+                                                <Link href="https://wa.me/5561981793222">
+                                                    <a
+                                                        className="inline-flex items-center text-white bg-gray-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200 transform hover:scale-105 motion-reduce:transform-none duration-1000"
+                                                    >
+                                                        <span className="px-3 py-0.5 text-white text-lg font-semibold leading-5 uppercase tracking-wide bg-red-700 rounded-full">
+                                                            Sem tempo para ir a Oficina?
+                                                        </span>
+                                                        <span className="ml-4 text-lg">FALE COM A IMEC</span>
+                                                        <ChevronRightIcon className="ml-2 w-5 h-5 text-gray-500" aria-hidden="true" />
+                                                    </a>
+                                                </Link>
+                                            </div>
                                             <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
                                                 <span className="md:block transform hover:scale-105 motion-reduce:transform-none duration-1000">Faça a revisão do seu carro</span>{' '}
                                                 <span className="text-black md:block transform hover:scale-105 motion-reduce:transform-none duration-1000">no conforto da sua casa</span>
@@ -86,7 +87,7 @@ export default function Hero() {
                                                 <div>
                                                     <p className="text-lg font-bold text-red-600 text-center">Fale Conosco</p>
                                                     <div className="mt-1 grid grid-cols-3 gap-3">
-                                                        <div className="transform hover:scale-110 motion-reduce:transform-none duration-700">
+                                                        <div id="botao-telefone-1" className="transform hover:scale-110 motion-reduce:transform-none duration-700">
                                                             <Link href="tel:+5561981793222">
                                                                 <a
                                                                     className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 "
@@ -101,7 +102,7 @@ export default function Hero() {
                                                                 </a>
                                                             </Link>
                                                         </div>
-                                                        <div className="transform hover:scale-110 motion-reduce:transform-none duration-700">
+                                                        <div id="botao-whatsapp-1" className="transform hover:scale-110 motion-reduce:transform-none duration-700">
                                                             <Link href="https://wa.me/5561981793222">
                                                                 <a
                                                                     className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
@@ -116,7 +117,7 @@ export default function Hero() {
                                                                 </a>
                                                             </Link>
                                                         </div>
-                                                        <div className="transform hover:scale-110 motion-reduce:transform-none duration-700">
+                                                        <div id="botao-instagram-1" className="transform hover:scale-110 motion-reduce:transform-none duration-700">
                                                             <Link href="https://www.instagram.com/imec.bsb/">
                                                                 <a
                                                                     className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"

@@ -20,8 +20,8 @@ export default function Footer() {
                         </p>
                         <dl className="mt-8 text-base text-gray-500">
 
-                            <div className="mt-6">
-                                <dt className="sr-only">Phone number</dt>
+                            <div id="botao-whatsapp-2" className="mt-6">
+                                <dt className="sr-only">Whatsapp</dt>
                                 <dd className="flex">
                                     <Image
                                         className="px-2"
@@ -39,7 +39,7 @@ export default function Footer() {
                                 </dd>
                             </div>
 
-                            <div className="mt-3">
+                            <div id="botao-instagram-2" className="mt-3">
                                 <dt className="sr-only">Instagram</dt>
                                 <dd className="flex">
                                     <Image
@@ -58,7 +58,7 @@ export default function Footer() {
                                 </dd>
                             </div>
 
-                            <div className="mt-3">
+                            <div id="botao-facebook" className="mt-3">
                                 <dt className="sr-only">Facebook</dt>
                                 <dd className="flex">
                                     <Image
@@ -77,7 +77,7 @@ export default function Footer() {
                                 </dd>
                             </div>
 
-                            <div className="mt-3">
+                            <div id="botao-email" className="mt-3">
                                 <dt className="sr-only">Email</dt>
                                 <dd className="flex">
                                     <Image
@@ -105,14 +105,13 @@ export default function Footer() {
                 </div>
                 <div className="bg-black py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
 
-                    <div className="max-w-lg mx-auto lg:max-w-none bg-white p-12 rounded-lg">
+                    <div className="max-w-lg mx-auto lg:max-w-none bg-white p-8 rounded-lg">
 
                         <div className="rounded-lg sm:overflow-hidden">
                             <div className="px-2 py-2 sm:px-10">
                                 <div>
-                                    <p className="text-lg font-bold text-red-600 text-center">Fale Conosco</p>
                                     <div className="mt-1 grid grid-cols-3 gap-3">
-                                        <div className="transform hover:scale-110 motion-reduce:transform-none duration-700">
+                                        <div id="botao-telefone-2" className="transform hover:scale-110 motion-reduce:transform-none duration-700">
                                             <Link href="tel:+5561981793222">
                                                 <a
                                                     className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 "
@@ -127,7 +126,7 @@ export default function Footer() {
                                                 </a>
                                             </Link>
                                         </div>
-                                        <div className="transform hover:scale-110 motion-reduce:transform-none duration-700">
+                                        <div id="botao-whatsapp-3" className="transform hover:scale-110 motion-reduce:transform-none duration-700">
                                             <Link href="https://wa.me/5561981793222">
                                                 <a
                                                     className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
@@ -142,7 +141,7 @@ export default function Footer() {
                                                 </a>
                                             </Link>
                                         </div>
-                                        <div className="transform hover:scale-110 motion-reduce:transform-none duration-700">
+                                        <div id="botao-instagram-3" className="transform hover:scale-110 motion-reduce:transform-none duration-700">
                                             <Link href="https://www.instagram.com/imec.bsb/">
                                                 <a
                                                     className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
