@@ -87,20 +87,22 @@ export default function Hero() {
                                                 <div>
                                                     <p className="text-lg font-bold text-red-600 text-center">Fale Conosco</p>
                                                     <div className="mt-1 grid grid-cols-3 gap-3">
-                                                        <div id="botao-telefone-1" className="transform hover:scale-110 motion-reduce:transform-none duration-700">
-                                                            <Link href="tel:+5561999971996">
-                                                                <a
-                                                                    className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 "
-                                                                >
-                                                                    <span className="sr-only">Telefone para a Imec</span>
-                                                                    <Image
-                                                                        className="px-2"
-                                                                        src="/telefone-imec.svg"
-                                                                        width={30}
-                                                                        height={30}
-                                                                        alt="Mirage" />
-                                                                </a>
-                                                            </Link>
+                                                        <div id="botao-telefone-1">
+                                                            <div className="transform hover:scale-110 motion-reduce:transform-none duration-700">
+                                                                <Link href="tel:+5561999971996">
+                                                                    <a
+                                                                        className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 "
+                                                                    >
+                                                                        <span className="sr-only">Telefone para a Imec</span>
+                                                                        <Image
+                                                                            className="px-2"
+                                                                            src="/telefone-imec.svg"
+                                                                            width={30}
+                                                                            height={30}
+                                                                            alt="Mirage" />
+                                                                    </a>
+                                                                </Link>
+                                                            </div>
                                                         </div>
                                                         <div id="botao-whatsapp-1" className="transform hover:scale-110 motion-reduce:transform-none duration-700">
                                                             <Link href="https://wa.me/556199971996">
